@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background: url(./assets/images/background-pattern-desktop.svg) repeat-x;
+  background-color: #f9f0ff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Work Sans", sans-serif;
+}
+
+.main {
+  width: 33.125rem;
+  padding: 1.25rem;
+  border-radius: 1rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header h1 {
+  margin-left: 1.2rem;
+  font-weight: 700;
+  font-size: 2.7rem;
+  color: #2f1533;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 0.02rem solid #f9f0ff;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+}
+
+.question p {
+  flex-basis: 30rem;
+  color: #2f1533;
+  font-weight: 600;
+}
+
+.question p:hover {
+  cursor: url(./assets/images/icons8-cursor-26.png), pointer;
+  color: #ad28eb;
+}
+
+.question svg {
+  flex-basis: 3rem;
+}
+
+.text {
+  color: #8c6991;
+  font-weight: 400;
+}
+
+.hidden {
+  display: none;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: #3e52a3;
+}
+
+@media screen and (min-width: 18.75rem) and (max-width: 47.938rem) {
+  .main {
+    width: 80%;
+  }
+}
